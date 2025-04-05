@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tag
+  -->
+  <title>Mentors Mantra</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="../static/Screenshot 2024-09-26 002302.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="../static/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="../static/hero-bg.svg">
+  <link rel="preload" as="image" href="../static/hero-banner-2.jpg">
+  <link rel="preload" as="image" href="../static/hero-shape-1.svg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo" style="display: flex; flex-direction: row;">
+        <img src="../static/Screenshot 2024-09-26 002302.png" width="90" height="25" alt="logo">
+        <p class="hero-text" style="margin: 2px; font-size: large; padding-top: 7px;">Mentors Mantra</p>
+    </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="/" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#courses" class="navbar-link" data-nav-link>Our Plans</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="contact.html" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-actions">
+        <a href="contact.html" class="btn has-before">
+          <span class="span">Start Free Trial</span>
+
+          <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+        </a>
+
+        <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" id="home" aria-label="home"
+        style="background-image: url('../static/hero-bg.svg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 section-title">
+              Empowering Education. <span class="span">Enroll</span> for a Journey
+            </h1>
+
+            <p class="hero-text">
+              Our mission is to provide learners with the best educational experience.<br>
+              Extensive resources & guides, an active community,<br>
+              24/7 support make it a pleasure to learn with us.
+            </p>
+
+            <a href="#courses" class="btn has-before">
+              <span class="span">Our Plans</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+          <figure class="hero-banner">
+
+            <div class="img-holder one" style="--width: 270; --height: 300;">
+              <img src="../static/pixlr-image-generator-371b11b8-4790-4569-88fc-7358c726ad1f.png" width="270" height="300" alt="hero banner" class="img-cover">
+            </div>
+
+            <div class="img-holder two" style="--width: 240; --height: 370;">
+              <img src="../static/hero-banner-2.jpg" width="240" height="370" alt="hero banner" class="img-cover">
+            </div>
+
+            
+
+            
+
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CATEGORY
+      -->
+
+      <section class="section category" aria-label="category">
+        <div class="container" >
+
+          <p class="section-subtitle">Additional Benefits</p>
+
+          <br>
+
+          <ul class="grid-list" style="justify-content: center ;">
+
+            <li>
+              <div class="category-card" style="--color: 170, 75%, 41%">
+
+                <div class="card-icon">
+                  <img src="../static/category-1.svg" width="40" height="40" loading="lazy"
+                    alt="Online Degree Programs" class="img">
+                </div>
+
+                <h3 class="h3">
+                  <a href="https://mentoring.streamlit.app/" class="card-title">Chatbot and Personlised Tests</a>
+                </h3>
+
+                <p class="card-text">
+                  Click to have a look....
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card" style="--color: 351, 83%, 61%">
+
+                <div class="card-icon">
+                  <img src="../static/category-2.svg" width="40" height="40" loading="lazy"
+                    alt="Non-Degree Programs" class="img">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Jee Advanced test series</a>
+                </h3>
+
+                <p class="card-text">
+                  Lorem ipsum dolor consec tur elit adicing sed umod tempor.
+                </p>
+
+              </div>
+            </li>
+
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <figure class="about-banner">
+
+            <div class="img-holder" style="--width: 520; --height: 370;">
+              <img src="../static/pixlr-image-generator-47275323-1ef6-4cf4-a2e5-2860f700eef1.png" width="520" height="370" loading="lazy" alt="about banner"
+                class="img-cover">
+            </div>
+
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">About Us</p>
+
+            <h2 class="h2 section-title">
+              Over a Year in <span class="span">Mentorships</span> for students support
+            </h2>
+
+            <ul class="about-list">
+
+              <li class="about-item">
+                <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+
+                <span class="span">IITians Mentors</span>
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+
+                <span class="span">Calling Support</span>
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+
+                <span class="span">Complete Access</span>
+              </li>
+
+            </ul>
+
+            <img src="../static/about-shape-4.svg" width="100" height="100" loading="lazy" alt=""
+              class="shape about-shape-4">
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #COURSE
+      -->
+
+      <section class="section course" id="courses" aria-label="course">
+        <div class="container">
+
+          <p class="section-subtitle">Popular Plans</p>
+
+          <h2 class="h2 section-title">Pick A Plan To Get Started</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="course-card">
+
+
+
+
+                <div class="card-content">
+
+                  <span class="badge">JEE</span>
+
+                  <h3 class="h3">
+                    <a href="contact.html" class="card-title">JEE Excel</a>
+
+                  </h3>
+                  <p>
+                    Alternate Day call from mentor (IITIAN)<br>
+                    Access to our all study material<br>
+                    Daily Schedule from mentor<br>
+                    4 customized CBT Based Test series<br>
+                    24/7 support available<br>
+                    Test making bot for free<br>
+                    Special Backlog support<br>
+                    Test analysis with mentor
+                  </p>
+
+
+                  <data class="price" value="29">₹799/month</data>
+
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+
+                <div class="card-content">
+
+                  <span class="badge">JEE</span>
+
+                  <h3 class="h3">
+                    <a href="contact.html" class="card-title">JEE Supreme</a>
+                  </h3>
+                  <p>      
+        
+                    Daily call from mentor (IITIAN)<br>
+                    Access to our all study material<br>
+                    Daily Schedule from mentor<br>
+                    10 customized CBT Based Test series<br>
+                    24/7 support available<br>
+                    Test making bot for free<br>
+                    Special Backlog support<br>
+                    Test analysis with mentor
+                      
+                    </p>
+
+                  <data class="price" value="49">₹999/month</data>
+
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+
+                <div class="card-content">
+
+                  <span class="badge">Test Series</span>
+
+                  <h3 class="h3">
+                    <a href="contact.html" class="card-title">Infinity Test</a>
+                  </h3>
+                  <p>      
+        
+                    Weekly mentorship call from mentor (IITIAN)<br>
+                    4 customized CBT Based Test series<br>
+                    Access to our all study material<br>
+                    Test making bot for free<br>
+                    <br>
+                    <br>
+                    <br>
+                  
+                </p>
+
+                  <data class="price" value="35">₹299/month</data>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+
+        </div>
+      </section>
+
+      <!-- 
+        - #STATE
+      -->
+
+      <section class="section stats" aria-label="stats">
+        <div class="container">
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="stats-card" style="--color: 170, 75%, 41%">
+                <h3 class="card-title">85%</h3>
+
+                <p class="card-text">Student Retention</p>
+              </div>
+            </li>
+
+            <li>
+              <div class="stats-card" style="--color: 351, 83%, 61%">
+                <h3 class="card-title">3+</h3>
+
+                <p class="card-text">Programs Launched</p>
+              </div>
+            </li>
+
+            <li>
+              <div class="stats-card" style="--color: 260, 100%, 67%">
+                <h3 class="card-title">50+</h3>
+
+                <p class="card-text">Mentors</p>
+              </div>
+            </li>
+
+            <li>
+              <div class="stats-card" style="--color: 42, 94%, 55%">
+                <h3 class="card-title">200+</h3>
+
+                <p class="card-text">Enrollment</p>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
+
+    <div class="footer-top section">
+      <div class="container grid-list">
+
+        <div class="footer-brand">
+          <p class="footer-brand-text">
+            Contact Info....
+          </p>
+
+          <div class="wrapper">
+            <span class="span">Add:</span>
+
+            <address class="address">70-80 Upper St Norwich NR2</address>
+          </div>
+
+          <div class="wrapper">
+            <span class="span">Call:</span>
+
+            <a href="tel:+011234567890" class="footer-link">+01 123 4567 890</a>
+          </div>
+
+          <div class="wrapper">
+            <span class="span">Email:</span>
+
+            <a href="mailto:info@eduweb.com" class="footer-link">info@eduweb.com</a>
+          </div>
+
+        </div>
+
+
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+           <!-- <a href="#" class="copyright-link">&copy; Mentors Mantra</a> -->
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back top top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="../static/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

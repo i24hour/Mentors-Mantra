@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tag
+  -->
+  <title>Mentors Mantra</title>
+
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="../static/Screenshot 2024-09-26 002302.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="../static/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="../static/hero-bg.svg">
+  <link rel="preload" as="image" href="../static/hero-banner-2.jpg">
+  <link rel="preload" as="image" href="../static/hero-shape-1.svg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+        <a href="/" class="logo" style="display: flex; flex-direction: row;">
+            <img src="../static/Screenshot 2024-09-26 002302.png" width="90" height="25" alt="logo">
+            <p class="hero-text" style="margin: 2px; font-size: large; padding-top: 7px;">Mentors Mantra</p>
+        </a>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" id="home" aria-label="home"
+        style="background-image: url('../static/hero-bg.svg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 section-title">
+              Empowering Education. <span class="span">Enroll</span> for a Journey
+            </h1>
+
+            <p class="hero-text">
+              Our mission is to provide learners with the best educational experience.<br>
+              Extensive resources & guides, an active community,<br>
+              24/7 support make it a pleasure to learn with us.
+            </p>
+
+          </div>
+
+          <figure >
+
+            <form action="/submit" class="newsletter-form" method="post">
+                <div class="element">
+                <label for="" class="form-label">Name     </label>
+                <input type="text" required name="name" class="input-field" id="">
+                </div>
+                <br>
+                <div class="element">
+                <label for="" class="form-label">Phone     </label>
+                <input type="number" required name="phone" class="input-field" id="inputPassword4">
+            </div>
+            <br>
+            <div class="elemente">
+                <label for="" class="form-label">Exam     </label>
+                <input type="text" required name="exam" class="input-field" placeholder="JEE or NEET">
+            </div>
+                <br>
+                <label for="inputZip" class="form-label">Any Question for us?</label>
+                <input type="text" name="question" class="input-field" id="inputZip" placeholder="Lets talk on a call">
+            
+
+
+                <br>
+                <button type="submit" class="btn has-before">
+                  <span class="span">Submit</span>
+    
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </button>
+                
+              </form>
+
+          </figure>
+
+        </div>
+      </section>
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="../static/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
